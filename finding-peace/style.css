@@ -1,0 +1,307 @@
+/*
+Template: Finding Peace
+Designer: Rayk Web Design (http://www.raykDesign.net)
+Date: December 2006
+ */
+
+/* General Styles */
+body {
+margin:0;
+padding:0;
+background-color:#ffffff;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:1em;
+color:#000000;
+}
+
+a {
+color:#B9400B;
+text-decoration:underline;
+}
+
+a:hover {
+color:#999999;
+text-decoration:none;
+}
+
+a:visted {
+color:#B9400B;
+text-decoration:underline;
+}
+
+/* Top Links */
+#toplinks {
+margin:0;
+padding:0;
+height:25px;
+background-color:#3F3F3F;
+background-image:url(img/top-link-bg.jpg);
+background-repeat:repeat-x;
+}
+
+#toplinksnav {
+margin:0 auto;
+padding:0 1em 0 0;
+width:780px;
+text-align:right;
+}
+
+#toplinksnav p {
+margin:0;
+padding:0;
+font-size:.7em;
+color:#cccccc;
+line-height:25px;
+}
+
+#toplinksnav a {
+color:#ffffff;
+text-decoration:none;
+}
+
+#toplinksnav a:hover {
+color:#B3CC8A;
+text-decoration:none;
+}
+
+#toplinksnav a:visted {
+color:#ffffff;
+text-decoration:none;
+}
+
+/* Slogan Area */
+#slogan {
+position:relative;
+margin:0;
+padding:0;
+height:310px;
+line-height:310px;
+background-color:#3F3F3F;
+background-image:url(img/slogan-bg.jpg);
+background-repeat:repeat-x;
+}
+
+.sloganfloat {
+float:left;
+margin:0;
+padding:0;
+border:none;
+}
+
+#slogan h1 {
+position:relative;
+margin:0 12% 0 0;
+padding:0;
+text-align:right;
+font-family:Arial, Helvetica, sans-serif;
+color:#ABB49B;
+}
+
+#slogan p {
+margin:-285px 12% -25px 0;
+padding:0;
+text-align:right;
+font-size:.8em;
+letter-spacing:.1em;
+color:#5C5C5C;
+}
+
+/* Navbar */
+#navbar {
+margin:0;
+padding:0;
+height:50px;
+background-color:#3F3F3F;
+background-image:url(img/nav-link-bg.jpg);
+background-repeat:repeat-x;
+}
+
+#navbarblock {
+margin:0 auto;
+padding:0;
+width:780px;
+line-height:50px;
+font-size:.95em;
+text-align:center;
+}
+
+#navbarblock ul {
+margin:0 .7em 0 .7em;
+padding:0;
+display:inline;
+list-style-type:none;
+text-align:center;
+}
+
+#navbarblock ul li {
+display:inline;
+position:relative;
+}
+
+#navbarblock a {
+color:#ffffff;
+text-decoration:none;
+padding:16px 20px 15px 20px;
+}
+
+#navbarblock a.now {
+color:#CDBEE6;
+text-decoration:none;
+}
+
+#navbarblock a:hover {
+color:#eeeeee;
+text-decoration:none;
+background-image:url(img/nav-link-hover-bg.jpg);
+background-repeat:repeat-x;
+background-position:top;
+}
+
+#navbarblock a:visted {
+color:#ffffff;
+text-decoration:none;
+}
+
+
+/* Call Out Area */
+#callout {
+margin:0;
+padding:0;
+height:143px;
+background-color:#A5C274;
+background-image:url(img/callout-bg.jpg);
+background-repeat:repeat-x;
+}
+
+#calloutblock {
+position:relative;
+margin:0 auto;
+padding:5px;
+width:770px;
+font-size:.9em;
+text-align:left;
+}
+
+#calloutblock h2 {
+margin:.5em 0 -.1em 0;
+color:#323232;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:1.5em;
+font-weight:lighter;
+}
+
+#calloutblock p {
+margin:.3em 0 0 0;
+color:#ffffff;
+font-size:.8em;
+}
+
+.calloutfloat {
+float:left;
+position:relative;
+margin:13px 15px 0 0;
+padding:0;
+border:none;
+height:104px;
+}
+
+#calloutblock a {
+color:#323232;
+text-decoration:underline;
+}
+
+#calloutblock a:hover {
+color:#616161;
+text-decoration:none;
+}
+
+#calloutblock a:visted {
+color:#323232;
+text-decoration:underline;
+}
+
+/* Text Area */
+#textarea {
+position:relative;
+margin:0 auto;
+padding:5px;
+width:770px;
+font-size:.9em;
+text-align:left;
+}
+
+#textarea h2 {
+margin:.5em 0 -.5em 0 !important;
+margin:.5em 0 -.9em 0;
+color:#B9400B;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:1.5em;
+font-weight:lighter;
+}
+
+#textarea p {
+font-size:.9em;
+}
+
+#textarea .date {
+margin-bottom:-1em;
+font-size:.7em;
+color:#828181;
+text-transform:uppercase;
+}
+
+/* Side Bar */
+#sidebar {
+float:right;
+position:relative;
+margin:0 0 0 5px;
+padding:5px 5px 5px 10px;
+width:240px;
+background-color:#ffffff;
+border-left:1px solid #D6C4A4;
+}
+
+#textarea h3 {
+margin:.5em 0 -.5em 0 !important;
+margin:.5em 0 -.9em 0;
+color:#988056;
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:1em;
+}
+
+#sidebar p {
+font-family:Arial, Helvetica, sans-serif;
+font-size:.8em;
+color:#B59A6A;
+}
+
+/* footer area */
+#footer {
+position:relative;
+margin:0 auto;
+margin-top:15px;
+padding:5px 5px 15px 5px;
+width:770px;
+color:#999999;
+text-align:center;
+clear:both;
+}
+
+#footer p {
+font-size:.7em;
+}
+
+#footer a {
+color:#DC9F85;
+text-decoration:underline;
+}
+
+#footer a:hover {
+color:#cccccc;
+text-decoration:none;
+}
+
+#footer a:visted {
+color:#DC9F85;
+text-decoration:underline;
+}
